@@ -1,14 +1,14 @@
 {
-  "name": "toupsi-wordpress",
+  "name": "toupsi-blog",
   "version": "1.0.0",
   "description": "Local Development & Deployment of my WordPress Blog, Toupsi.",
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "docker:build": "docker build --platform linux/amd64 -t toupsi-wordpress .",
-    "docker:tag": "docker tag toupsi-wordpress:latest 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-wordpress:latest",
-    "docker:publish": "docker push 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-wordpress:latest",
-    "docker:pull": "docker pull 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-wordpress:latest"
+    "docker:build": "docker build --platform linux/amd64 -t toupsi-blog .",
+    "docker:tag": "docker tag toupsi-blog:latest 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-blog:latest",
+    "docker:publish": "docker push 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-blog:latest",
+    "docker:pull": "docker pull 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-blog:latest"
   },
   "repository": {
     "type": "git",
