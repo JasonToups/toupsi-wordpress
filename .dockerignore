@@ -7,6 +7,9 @@ npm-debug.log
 .env
 .aws
 
+# WordPress Blog Build
+toupsi-wordpress
+
 # Ignore all files and directories that start with "tmp
 tmp*
 

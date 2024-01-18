@@ -1,0 +1,29 @@
+{
+  "name": "toupsi-wordpress",
+  "version": "1.0.0",
+  "description": "Local Development & Deployment of my WordPress Blog, Toupsi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "docker:build": "docker build -t toupsi-wordpress .",
+    "docker:tag": "docker tag toupsi-wordpress:latest 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-wordpress:latest",
+    "docker:publish": "docker push 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-wordpress:latest",
+    "docker:pull": "docker pull 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-wordpress:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JasonToups/toupsi-wordpress.git"
+  },
+  "keywords": [
+    "wordpress",
+    "docker",
+    "docker-compose",
+    "aws"
+  ],
+  "author": "Jason Toups",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonToups/toupsi-wordpress/issues"
+  },
+  "homepage": "https://github.com/JasonToups/toupsi-wordpress#readme"
+}
