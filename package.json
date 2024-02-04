@@ -8,7 +8,8 @@
     "docker:build": "docker build --platform linux/amd64 -t toupsi-blog .",
     "docker:tag": "docker tag toupsi-blog:latest 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-blog:latest",
     "docker:publish": "docker push 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-blog:latest",
-    "docker:pull": "docker pull 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-blog:latest"
+    "docker:pull": "docker pull 353924978485.dkr.ecr.us-west-1.amazonaws.com/toupsi-blog:latest",
+    "ubuntu:connect": "ssh -i ./keys/toupsi-admin.pem ubuntu@ec2-54-67-17-105.us-west-1.compute.amazonaws.com"
   },
   "repository": {
     "type": "git",
